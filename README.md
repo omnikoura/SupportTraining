@@ -1,19 +1,23 @@
-public class SupportTraining{
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
- public static void main(String[] args){
+public class Main{
+
+public static void main(String[] args){
      String msgone = "SupportTraining";
      String msgtwo = "Support";
      String msgthree = "Training";
    for(int x=1; x<=100; x++){
-     if(x % 15 == 0)
+     if (x % 15 == 0)
       {
         System.out.print(msgone);
       }
-     elseif(x % 3 == 0)
+     else if (x % 3 == 0)
        {
          System.out.print(msgtwo);
        }
-     elseif(x % 5 == 0)
+     else if (x % 5 == 0)
        {
          System.out.print(msgthree);
        }
@@ -24,3 +28,4 @@ public class SupportTraining{
      }  // Loop
    }  // Main
  }  // Class
+	
